@@ -48,7 +48,7 @@ color: rgb(157, 87, 87);
   font-size: 24px;
 }
 .homename h2{
-  font-size: 320px;
+  font-size: 300px;
   color: rgba(157, 87, 87, 0.301);
   margin-left: 18%;
   letter-spacing: 30px;
@@ -62,13 +62,58 @@ color: rgb(157, 87, 87);
   letter-spacing: 5px;
   font-family: 'Libre Baskerville', serif;
 }
-.carousel{
-  width: 35%;
+.carousel2{
+  width: 30%;
   margin-left: 35%;
   position: relative;
   top: -520px;
   z-index: 1;
   opacity: 0.9;
+}
+#carouselExampleAutoplaying2 {
+  max-height: 500px; /* Adjust this value as needed */
+}
+
+/* Custom CSS to reduce image height */
+#carouselExampleAutoplaying2 img {
+  height: auto;
+  max-height: 550px; /* Adjust this value as needed */
+}
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.carousel-control-prev {
+  left: -30px; /* Adjust this value to position the previous button */
+}
+
+.carousel-control-next {
+  right: -30px; /* Adjust this value to position the next button */
+}
+
+.home2 h2{
+color: black;
+font-size: 40px;
+font-family: 'Libre Baskerville', serif;
+width: 50%;
+}
+.home2head {
+  margin-left: 35%;
+}
+.collection{
+  color: rgba(157, 87, 87, 0.274);
+  font-family: 'Dancing Script', cursive;
+  font-size: 74px;
+  margin-left: 5%;
+ }
+ .carousel{
+  width: 85%;
+  margin-left: 5%;
+ 
 }
 #carouselExampleAutoplaying {
   max-height: 400px; /* Adjust this value as needed */
@@ -77,26 +122,59 @@ color: rgb(157, 87, 87);
 /* Custom CSS to reduce image height */
 #carouselExampleAutoplaying img {
   height: auto;
-  max-height: 650px; /* Adjust this value as needed */
+  max-height: 450px; /* Adjust this value as needed */
 }
-/* .carousel-control-prev,
-.carousel-control-next{
-  bottom: -500px;
-} */
-.home2 h2{
+.carousel-inner {
+  max-height: 1600px; /* Adjust this value as needed */
+}
+
+.carousel-inner img {
+  height: auto;
+  width: 100%; /* This will maintain the image's aspect ratio */
+}
+.carousel-img {
+  max-height: 700px; /* Adjust this value as needed */
+  width: 100%;
+  object-fit: cover; /* Adjust the object-fit property as needed (e.g., 'contain', 'fill') */
+  margin: 0 auto; /* This will center the image horizontally */
+}
+
+.card-img-top {
+  height: 350px; /* Set the desired fixed height for the images */
+  object-fit: cover; /* This will ensure the images maintain their aspect ratio */
+}
+.card-img-top:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px grey;
+}
+.row{
+  margin-left: 0;
+}
+.home5wrapper{
+  display: flex;
+}
+.home5 .card{
+  width: 20%;
+  margin-left: 70px;
+  background-color: rgb(246, 240, 240);
+}
+
+.home5header{
+  margin-left: 38%;
+  margin-top: 7%;
+}
+.h5p{
+  margin-left: 9%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 29px;
+  color: rgba(157, 87, 87, 0.809);
+
+}
+.h5h2{
 color: black;
 font-size: 40px;
 font-family: 'Libre Baskerville', serif;
-width: 50%;
 }
-.home2 {
-  margin-left: 35%;
-}
-.collection{
-  color: rgba(157, 87, 87, 0.274);
-  font-family: 'Dancing Script', cursive;
-  font-size: 74px;
-  margin-left: 5%;
 
-  }
 
+ 
