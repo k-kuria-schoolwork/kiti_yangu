@@ -43,7 +43,7 @@ function Home() {
     <div class="card">
       <img src="../Images/sofa2.jpg" class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">SOFAS</h5>
       </div>
     </div>
   </div>
@@ -51,7 +51,7 @@ function Home() {
     <div class="card">
       <img src="../Images/plant1.jpg" class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">PLANTS</h5>
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@ function Home() {
     <div class="card">
       <img src="../Images/deco5.jpg" class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">ART PIECES</h5>
       </div>
     </div>
   </div>
@@ -79,36 +79,30 @@ function Home() {
         <div class="card" >
         <img src="../Images/lightshade.jpg" class="card-img-top" alt="..."/>
           <div class="card-body">
-            <h5 class="card-title">Halima </h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">project manager</h6>
-            <p class="card-text">My first time in this clinic and the services were exemplary ,i highly recommend anyone in search of a dental clinic.. </p>
-            
+            <h5 class="card-title">Leaf chandelier </h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Ksh. 20,000</h6>            
           </div>
         </div>
 
         <div class="card" >
         <img src="../Images/utensils.jpg" class="card-img-top" alt="..."/>
           <div class="card-body">
-            <h5 class="card-title">kevin Gitonga</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Enterprenuer</h6>
-            <p class="card-text">The receptionist was so welcoming,the services were professional and the prices were fair.How can you not love it there. </p>
+            <h5 class="card-title">Colorful Indian Kettle</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Ksh. 12,000</h6>
           </div>
         </div>
         <div class="card" >
         <img src="../Images/sofa10.jpg" class="card-img-top" alt="..."/>
           <div class="card-body">
-            <h5 class="card-title">Bunny kanosh</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Fashion designer</h6>
-            <p class="card-text">Shout out to my bwoy ya diig.The doctor gold platted me some dope shit.Thats wozzap</p>
-           
+            <h5 class="card-title">Black office seat</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Ksh. 2,000</h6>           
           </div>
         </div>
         <div class="card" >
         <img src="../Images/plant3.jpg" class="card-img-top" alt="..."/>
           <div class="card-body">
-            <h5 class="card-title">Barbie Doll</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Spicey Wifey</h6>
-            <p class="card-text">Heyyy guuurl.I got some shiny dimy on my teeth.PS i also got some braces.ahaaa.You thought i was feeling you. </p>
+            <h5 class="card-title">Cactus PLat</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Ksh. 500</h6>
           </div>
         </div>
 
