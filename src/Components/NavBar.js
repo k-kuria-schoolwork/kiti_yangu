@@ -10,19 +10,19 @@ function NavBar() {
         <div className='navbar'>
             <ul>
                 <li>
-                    <Link>Home</Link>
+                    <Link to='/'>Home</Link>
                 </li>
                 <li>
-                    <Link>About</Link>
+                    <Link to='/about'>About</Link>
                 </li>  
                 <li>
-                    <Link>Furnitures</Link>
+                    <Link to='/furnitures'>Furnitures</Link>
                 </li>
                 <li>
-                    <Link>Blog</Link>
+                    <Link to='/blog'>Blog</Link>
                 </li>
                 <li>
-                    <Link className='carticonnav'>
+                    <Link to='/cart' className='carticonnav'>
                         <i class="fa-solid fa-cart-shopping"></i>
                         Cart</Link>
                 </li>
