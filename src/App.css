@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:ital,wght@1,200&display=swap');
 
 
 *{
@@ -39,10 +40,27 @@ body{
 text-decoration: none;
 color: rgb(157, 87, 87);
 margin-right: 50%;
+
+}
+
+.navbar ul li a:hover {
+  color: black;
+  content: ""; /* Add a pseudo-element for the underline */
+  left: 0; /* Align it with the left edge of the link */
+  bottom: -1px; /* Adjust this value to control the spacing */
+  width: 100%; /* Make it span the entire width of the link */
+  border-bottom: 1px solid transparent; /* Set initial border color */
+  transition: border-color 0.3s ease; /* Add transition for smooth effect */
+}
+.navbar ul li a:hover  {
+  border-color: black;
 }
 .carticonnav i{
   color: rgb(157, 87, 87);
   font-size: 24px;
+}
+.homename {
+  height: 1000px;
 }
 .homename h2{
   font-size: 300px;
@@ -179,17 +197,31 @@ font-family: 'Libre Baskerville', serif;
 .firstabout{
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 7%;
   gap: 6rem;
 }
 .content1{
   width: 40%;
+}
+.content1 h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600
+}
+.content1 p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  color: rgba(83, 25, 25, 0.998);
 }
 .teamhead{
   display: flex;
   justify-content: center;
   margin-top: 5%;
   margin-bottom: 2%;
+}
+.teamhead h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
 }
 .card2{
 background-color: white;
@@ -207,8 +239,93 @@ margin-bottom: 2%;
 }
 .card-img-top2{
   width: 90%;
-
 }
+.about3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7%;
+  margin-top: 7%;
+}
+.aboutform{
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 370px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  /* justify-content: center; */
+}
+.aboutform input{
+  outline: 0;
+  border: 1px solid rgb(110, 59, 4);
+  padding: 8px 14px;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+}
+.aboutform textarea{
+  border-radius: 10px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid rgb(110, 59, 4);
+}
+.aboutform button{
+  align-self: flex-end;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid rgb(110, 59, 4);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.findname{
+  display: flex;
+  gap: 10rem;
+}
+.contheader h5{
+  width: 60%;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(101, 40, 40, 0.998);
+}
+.contheader {
+  margin-right: -8%;
+}
+.contheader p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  color: rgba(101, 40, 40, 0.998);
+}
+.contheader h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.furncontainer{
+  display: flex;
+margin-left: 13%;
+  margin-top: 8%;
+}
+
+.card4{
+  background-color: white;
+  width: 20%;
+  margin-left: 6%;
+  margin-bottom: 2%;
+  }
+  .card-img-top3{
+    width: 100%;
+  }
+  .input-group {
+    width: 30%;
+  }
 
 
  

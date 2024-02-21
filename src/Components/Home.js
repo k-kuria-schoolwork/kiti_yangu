@@ -7,7 +7,7 @@ function Home() {
       <h2>Interior </h2>
       <p>Signatures</p>
 
-      <div>
+    
           <div id="carouselExampleAutoplaying2" class="carousel2 slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -30,7 +30,7 @@ function Home() {
           </button>
         </div>
     </div>
-    </div>
+   
 
     <div className='home2'>
       <div className='home2head'>

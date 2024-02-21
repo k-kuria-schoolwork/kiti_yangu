@@ -85,6 +85,41 @@ function About() {
         </div>
         </div>
       </div>
+
+      <div className='about3'>
+          <div className='contheader'>
+            <p>Get In Touch With Us</p>
+            <h2>GOT ANY QUESTIONS?</h2>
+            <h5>Nam nec tellus a odio tincidunt auctor 
+              a ornare odio. Sed non mauris vitae erat consequat 
+              auctor eu in elit.
+              </h5>
+          
+          <div className='findname'>
+              <div className='office'>
+                <h2>OFFICE</h2>
+                <p>2132 Kahawa Wendani</p>
+                <p>Ruiru CA 9091</p>
+                <p>+254 768 696 986</p>
+                <p>Kungukuria5724@gmail.com</p>
+              </div>
+              <div className='office'>
+                <h2>STORE</h2>
+                <p>3133 Town Centre</p>
+                <p>Nairobi County 2233</p>
+                <p>+254 768 696 986</p>
+                <p>kitiyangu@gmail.com</p>
+              </div>
+          </div>
+          </div>
+          <div className='aboutform'>
+            <h2 className='cotitle'>Contact Us</h2>
+            <input type="text" placeholder='Your name' className='input'></input>
+            <input type="number" placeholder='Your number' className='input'></input>
+            <textarea placeholder='Your message'></textarea>
+            <button>Submit</button>
+          </div>
+      </div>
     </div>
   )
 }
